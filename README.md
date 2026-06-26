@@ -10,7 +10,7 @@ A vibrant, web app layout designed for **Bloom**, a platform built on trust, war
 
 ## 🔗 Live Prototype
 You can view the interactive project workspace and edit history directly on Bolt.new here:
-👉 https://bolt.new/p/68249526
+https://bolt.new/p/68249526
 
 ---
 *Created as part of the TTLP Vision to Prototype session with The Knowledge House.*
