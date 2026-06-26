@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #FFF8F0;
+    color: #2D2D2D;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lexend', sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-sunflower-coral {
+    background: linear-gradient(135deg, #F5C842 0%, #E86A56 100%);
+  }
+  .gradient-coral-burgundy {
+    background: linear-gradient(135deg, #E86A56 0%, #8B3A3A 100%);
+  }
+  .gradient-orange-coral {
+    background: linear-gradient(135deg, #F5A623 0%, #E86A56 100%);
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E86A56;
+  border-radius: 3px;
+}
